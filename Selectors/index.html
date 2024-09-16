@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="main-heading">CSS Selectors Demo</h1>
+    
+    <div class="container">
+        <h2>Element Selector</h2>
+        <p>This paragraph is selected using the element selector (p).</p>
+        
+        <h2>Class Selector</h2>
+        <p class="highlight">This paragraph uses the class selector (.highlight).</p>
+        
+        <h2>ID Selector</h2>
+        <p id="unique-para">This paragraph is styled using the ID selector (#unique-para).</p>
+        
+        <h2>Grouping Selectors</h2>
+        <p>This is a grouped selector example. Both h1 and h2 will have the same color.</p>
+        
+        <h2>Descendant & Child Selectors</h2>
+        <div class="descendant">
+            <p>This paragraph is a descendant of the div (div p).</p>
+            <p>This paragraph is a direct child of the div (div > p).</p>
+        </div>
+        
+        <h2>Attribute Selector</h2>
+        <input type="text" placeholder="Text input selected with attribute selector">
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.position-examples {
+  width: 200px;
+  height: 100px;
+  background-color: #f39c12;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Relative Position */
+.relative-box {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: #3498db;
+}
+
+/* Absolute Position */
+.absolute-box {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  background-color: #e74c3c;
+}
+
+/* Fixed Position */
+.fixed-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #2ecc71;
+}
+
+/* Sticky Position */
+.sticky-box {
+  position: sticky;
+  top: 0;
+  background-color: #e67e22;
+}

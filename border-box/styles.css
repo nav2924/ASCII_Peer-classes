@@ -1,0 +1,20 @@
+/* Default box model without box-sizing */
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px; /* Padding inside the box */
+  border: 5px solid #333; /* Border around the box */
+  margin: 15px; /* Space outside the box */
+  background-color: lightblue;
+}
+
+/* Using box-sizing: border-box */
+.box-sizing-example {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid #333;
+  margin: 15px;
+  box-sizing: border-box; /* Simplifies layout calculation */
+  background-color: lightcoral;
+}

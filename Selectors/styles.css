@@ -1,0 +1,39 @@
+/* Element Selector */
+p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#unique-para {
+    color: blue;
+    font-style: italic;
+}
+
+/* Grouping Selectors */
+h1, h2 {
+    color: red;
+}
+
+/* Descendant Selector (selects all p elements inside .descendant div) */
+.descendant p {
+    color: green;
+}
+
+/* Child Selector (selects only direct children p of .descendant div) */
+.descendant > p {
+    font-weight: bold;
+    color: orange;
+}
+
+/* Attribute Selector (selects input elements with type="text") */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
