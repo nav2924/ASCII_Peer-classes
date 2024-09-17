@@ -8,7 +8,7 @@
 
 .background-image {
   background-image: url("https://via.placeholder.com/300"); /* Placeholder image */
-  background-size: cover; /* Cover the element */
+  background-size:contain; /* Cover the element */
   background-position: center;
   width: 300px;
   height: 150px;

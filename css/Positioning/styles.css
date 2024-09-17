@@ -27,8 +27,8 @@
 /* Fixed Position */
 .fixed-box {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 3;
+  right: 4;
   background-color: #2ecc71;
 }
 
