@@ -1,0 +1,16 @@
+document;
+document.firstElementChild.firstElementChild.firstElementChild
+head.innerHTML = 'Good Bye'
+head.style.color = 'blue'
+document.querySelector("input").click()
+document.firstElementChild.lastElementChild.querySelector("ul").lastElementChild.innerHTML = "Angela";
+
+
+## HTML
+document.getElementsByTagName("li")
+document.getElementsByTagName("li")[2].style.color = 'purple'
+document.getElementsByClassName("btn")[0].style.color = 'red'
+document.querySelector("h1").innerHTML = "<em>Hey</em>"
+document.querySelector("a").setAttribute('href',"https://www.bing.com/")
+
+https://stackoverflow.com/questions/9419263/how-to-play-audio

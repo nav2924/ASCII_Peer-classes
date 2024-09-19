@@ -19,4 +19,4 @@ function multiply(a, b = 2) {
     return a * b;
 }
 
-console.log(multiply(5)); // Outputs: 10 (5 * 2)
+console.log(multiply(5,5)); // Outputs: 10 (5 * 2)
